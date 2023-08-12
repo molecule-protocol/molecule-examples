@@ -30,7 +30,7 @@ contract Subscription is ERC721, IMoleculeLogic, Ownable {
     uint64 public _duration;
     bool public _renewable;
 
-    address public _molecule;
+    address public _molecule; // address of logic contract
 
     // EIP-5643 reference implementation modified
     // owner address to experiation date
